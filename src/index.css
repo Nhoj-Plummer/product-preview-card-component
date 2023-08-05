@@ -1,0 +1,14 @@
+@import url("https://fonts.google.com/specimen/Montserrat");
+@import url("https://fonts.google.com/specimen/Fraunces");
+
+:root {
+  --font-family: "Montserrat", "Fraunces", sans-serif;
+
+  --color-bg: hsl(30, 38%, 92%);
+
+  /* Text Colors */
+  --color-headertext: hsl(212, 21%, 14%);
+  --color-text: hsl(228, 12%, 48%);
+  --color-buttontext: hsl(0, 0%, 100%);
+  --color-subtext: hsl(158, 36%, 37%);
+}
