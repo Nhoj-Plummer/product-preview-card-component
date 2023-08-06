@@ -1,3 +1,15 @@
-.product__card-container {
+.product-container {
+  display: flex;
+  margin: 150px auto;
+  width: 50rem;
+  height: 37.5rem;
+  border: 1px solid;
+}
+
+.product-container__image{
+
+}
+
+.prodcut-container__text {
   
 }
