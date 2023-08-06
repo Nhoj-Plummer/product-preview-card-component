@@ -1,33 +1,10 @@
 .product-container {
   display: flex;
-  width: 50rem;
-  height: 37.5rem;
-  margin: 150px auto;
+  flex-wrap: wrap;
+  max-width: 50rem;
+  max-height: 37.5rem;
+  padding: 2rem;
   border: 1px solid;
 }
 
-.product-container__image,
-.prodcut-container__text {
-  max-height: 100%;
-  width: 100%;
-}
 
-.product-container__image {
-  border: 1px solid red;
-}
-
-.product-container__image img {
-  height: 100%;
-}
-
-.prodcut-container__text {
-  padding: ;
-  background: var(--color-sectionbg);
-  border: 1px solid blue;
-}
-
-@media screen and (max-width: 768px) {
-  .product-container {
-    flex-direction: column;
-  }
-}
