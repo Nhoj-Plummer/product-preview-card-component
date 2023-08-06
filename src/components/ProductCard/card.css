@@ -1,3 +1,4 @@
+/* General Section Formatino */
 .product-container {
   display: flex;
   flex-wrap: wrap;
@@ -7,4 +8,21 @@
   border: 1px solid;
 }
 
+/* Image Section */
+.product-container__image {
+  border: 1px solid red;
+  max-width: 50%;
+}
 
+.product-container__image img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+/* Text Section */
+.product-container__text {
+  padding: 2rem;
+  max-width: 50%;
+  background: var(--color-sectionbg);
+  border: 1px solid blue;
+}
