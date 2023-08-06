@@ -6,10 +6,11 @@
   border: 1px solid;
 }
 
-.product-container__image{
-
-}
-
+.product-container__image,
 .prodcut-container__text {
-  
+  height: inherit;
+  width: inherit;
+  border: 1px solid;
 }
+
+
