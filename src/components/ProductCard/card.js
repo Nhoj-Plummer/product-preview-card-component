@@ -9,7 +9,7 @@ function Card() {
         <img src={desktopimg} alt="desktop" />
       </div>
       <div className="product-container__text">
-        <p>Perfume</p>
+        <p>PERFUME</p>
         <h1>Gabrielle Essence Eau De Parfum</h1>
         <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL</p>
         <h2>
