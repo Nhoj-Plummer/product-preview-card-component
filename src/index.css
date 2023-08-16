@@ -2,7 +2,7 @@
 @import url("https://fonts.google.com/specimen/Fraunces");
 
 :root {
-  --font-family: "Montserrat", "Fraunces", sans-serif;
+  --font-family: "Montserrat", sans-serif;
 
   --color-bg: hsl(30, 38%, 92%);
 
