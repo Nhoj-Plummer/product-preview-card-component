@@ -1,13 +1,11 @@
 import React from "react"
 import "./card.css"
-import { desktopimg, mobileimg, carticon } from "./cardindex"
+import { carticon } from "./cardindex"
 
 function Card() {
   return (
     <div className="product-container section-padding">
-      <div className="product-container__image">
-        <img src={desktopimg} alt="desktop" />
-      </div>
+      <div className="product-container__image">{/* <img src={desktopimg} alt="desktop" /> */}</div>
       <div className="product-container__text">
         <p>PERFUME</p>
         <h1>Gabrielle Essence Eau De Parfum</h1>
