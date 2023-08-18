@@ -5,7 +5,7 @@ import { carticon } from "./cardindex"
 function Card() {
   return (
     <div className="product-container section-padding">
-      <div className="product-container__image">{/* <img src={desktopimg} alt="desktop" /> */}</div>
+      <div className="product-container__image"></div>
       <div className="product-container__text">
         <p>PERFUME</p>
         <h1>Gabrielle Essence Eau De Parfum</h1>
@@ -13,10 +13,12 @@ function Card() {
         <h2>
           $149.99 <span>$169.99</span>
         </h2>
-        <button id="cart-button">
-          <img src={carticon} alt="cart" />
-          <h3>Add To Cart</h3>
-        </button>
+        <div className="product-container__text-button">
+          <button>
+            <img src={carticon} alt="cart" />
+            <h3>Add To Cart</h3>
+          </button>
+        </div>
       </div>
     </div>
   )
