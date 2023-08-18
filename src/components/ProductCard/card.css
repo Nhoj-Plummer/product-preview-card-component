@@ -3,16 +3,14 @@
   display: flex;
   max-width: 50rem;
   max-height: 37.5rem;
-  padding: 1.563rem;
-  border: 1px solid;
+ 
 }
 
 /* Image Section */
 .product-container__image {
-  border: 1px solid red;
   background-image: url("../../assets/image-product-desktop.jpg");
   background-size: cover;
-  min-width: 50%;
+  width: 50%;
   min-height: 34rem;
 }
 
@@ -21,12 +19,10 @@
   padding: 2rem;
   min-width: 50%;
   background: var(--color-sectionbg);
-  border: 1px solid blue;
   border-bottom-right-radius: 1.875rem;
 }
 
 .product-container__text p:first-child {
-  border: 1px solid;
   margin-bottom: 1.563rem;
   color: var(--color-text);
   letter-spacing: 0.4rem;
@@ -43,7 +39,7 @@
   font-size: 35px;
   font-weight: 1000;
   max-width: 200px;
-  border: 1px solid;
+  
 }
 
 .product-container__text p:nth-of-type(2) {
@@ -52,12 +48,10 @@
   font-weight: 600;
   max-width: 16.875rem;
   color: var(--color-text);
-  border: 1px solid;
   margin-bottom: 1.6rem;
 }
 
 .product-container__text h2 {
-  border: 1px solid;
   font-size: 40px;
   font-family: var(--font-text);
   color: var(--color-subtext);
@@ -65,7 +59,6 @@
 }
 
 .product-container__text h2 span {
-  border: 1px solid;
   position: relative;
   bottom: 15px;
   left: 40px;
@@ -78,7 +71,7 @@
   display: flex;
   justify-content: center;
   padding: 5px;
-  border: 1px solid;
+  
 }
 
 .product-container__text-button button {
@@ -91,24 +84,17 @@
   background-color: var(--color-subtext);
   cursor: pointer;
   transition: 0.3s;
-}
-
-.product-container__text-button img {
-  
   
 }
 
-/* .product-container__text button {
-  border: 1px solid;
-  cursor: pointer;
-  max-width: 19.688rem;
-  max-height: 50px;
-  background-color: var(--color-subtext);
-} */
+.product-container__text-button h3 {
+  font-family: var(--font-subtext);
+  margin-left: 10px;
+  color: white;
+}
 
 .product-container__text-button button:hover {
   background-color: #1a4031;
- 
 }
 
 /*Responsive Changes */
@@ -134,12 +120,17 @@
     border-bottom-left-radius: 1.875rem;
   }
 
+  .product-container__text p:nth-of-type(2) {
+    max-width: 22rem;
+    
+  }
+
   .product-container__image {
     min-height: 20rem;
     background-position: center center;
     background-image: url("../../assets/image-product-mobile.jpg");
     border-top-left-radius: 1.875rem;
     border-top-right-radius: 1.875rem;
-    min-width: 50%;
+    width: none;
   }
 }
