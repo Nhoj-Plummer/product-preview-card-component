@@ -3,21 +3,24 @@
   display: flex;
   max-width: 50rem;
   max-height: 37.5rem;
- 
+  border: 1px solid;
+  align-items: center;
+  justify-content: center;
+
 }
 
 /* Image Section */
 .product-container__image {
   background-image: url("../../assets/image-product-desktop.jpg");
   background-size: cover;
-  width: 50%;
+  min-width: 50%;
   min-height: 34rem;
 }
 
 /* Text Section */
 .product-container__text {
   padding: 2rem;
-  min-width: 50%;
+  max-width: 50%;
   background: var(--color-sectionbg);
   border-bottom-right-radius: 1.875rem;
 }
@@ -84,7 +87,7 @@
   background-color: var(--color-subtext);
   cursor: pointer;
   transition: 0.3s;
-  
+  box-shadow: none;
 }
 
 .product-container__text-button h3 {
@@ -131,6 +134,5 @@
     background-image: url("../../assets/image-product-mobile.jpg");
     border-top-left-radius: 1.875rem;
     border-top-right-radius: 1.875rem;
-    width: none;
   }
 }
